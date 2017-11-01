@@ -17,7 +17,7 @@
                         <li class="user_top_c"></li>
                         <li class="user_top_r"></li></ul>
                 </dd><dd id="user_main">
-                    <form action="#" method="post">
+                    <form action="/ThinkPHP/shop/index.php/Admin/Manager/login.html" method="post">
                         <ul>
                             <li class="user_main_l"></li>
                             <li class="user_main_c">
@@ -36,7 +36,9 @@
                                         <li class="user_main_text">验证码： </li>
                                         <li class="user_main_input">
                                             <input class="TxtValidateCodeCssClass" id="captcha" name="captcha" type="text">
-                                            <img src="<?php echo ADMIN_IMG_URL; ?>admin.png"  alt="" />
+                                            <img src="/ThinkPHP/shop/index.php/Admin/Manager/verifyImg"  alt=""
+                                                onclick="this.src='/ThinkPHP/shop/index.php/Admin/Manager/verifyImg/'+Math.random()" 
+                                             />
                                         </li>
                                     </ul>
                                 </div>
