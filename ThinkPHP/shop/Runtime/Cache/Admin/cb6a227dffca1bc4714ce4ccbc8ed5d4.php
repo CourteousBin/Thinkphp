@@ -72,7 +72,7 @@
         <h2>/ThinkPHP/shop/index.php/Admin (MODULE 路由到 分组)</h2>
         <h2>/ThinkPHP/shop/index.php/Admin/Index (CONTROLLER 路由 到控制器)</h2>
         <h2>/ThinkPHP/shop/index.php/Admin/Index/right (ACTION 路由地址操作方法信息) </h2>
-        <h2>/ThinkPHP/shop/index.php/Admin/Index/right.html (SELF 路由地址的全部信息)</h2>
+        <h2>/ThinkPHP/shop/index.php/admin/index/right.html (SELF 路由地址的全部信息)</h2>
         
         
         

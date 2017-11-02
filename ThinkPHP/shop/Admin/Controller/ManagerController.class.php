@@ -25,11 +25,12 @@ use Think\Verify;
 					// checkNamePwd 验证成功返回 记录 , 否则 null;
 					$info = $manager -> checkNamePwd($_POST['admin_user'],$_POST['admin_psd']);
 
+
 					// 如果验证成功
 					if($info){
 
 						// 给用户信息session持久化操作
-						session('admin',$info['mg_id']);
+						session('admin_id',$info['mg_id']);
 						session('admin_name',$info['mg_name']);
 
 						// 在模板输出为 {$Think.session.admin_name}
